@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
-    <title>Awesome Quiz App</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script>
+    function hello(){
+        alert("Quiz App Currently In Progress, Please bare with me");
+    }
+   </script>
+<title>Awesome Quiz App</title>
 </head>
 <body>
     <!-- start Quiz button -->
@@ -29,6 +35,64 @@
                 <button class="restart">Continue</button>
             </div>
     </div>
+
+<!-- Quiz box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Awesome Quiz Application</div>
+            <div class="timer">
+                <div class="time_text">Time Left:</div>
+                <div class="timer_sec">15</div>
+            </div>
+        </header>
+       
+        <section>
+            <div class="que_text">
+                <span>What does HTML stand for:</span>
+            </div>
+            <div class="option_list">
+                <div class="option">
+                    <span>Hyper Text Preprocessor</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                
+                <div class="option">
+                    <span>Hyper Text Markup Language</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                
+                <div class="option">
+                    <span>Hyper Text multiple language</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                
+                <div class="option">
+                    <span>Hyper Tool Multi Language</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+        
+            </div>
+        </section>
+        
+        <!-- Quit Box Footer -->
+        <footer>
+            <div class="total_que">
+                <span> <p>2</p> of <p>5</p>  Questions </span>
+            </div>
+            <button onclick="hello()" class="next_btn">Next Que</button>
+        </footer>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
