@@ -6,12 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <script>
-    function hello(){
-        alert("Quiz App Currently In Progress, Please bare with me");
-    }
-   </script>
-<title>Awesome Quiz App</title>
+<title>Divine Quiz App</title>
 </head>
 <body>
     <!-- start Quiz button -->
@@ -39,7 +34,7 @@
 <!-- Quiz box -->
     <div class="quiz_box">
         <header>
-            <div class="title">Awesome Quiz Application</div>
+            <div class="title">Divine Quiz Application</div>
             <div class="timer">
                 <div class="time_text">Time Left:</div>
                 <div class="timer_sec">15</div>
@@ -74,16 +69,32 @@
             </div>
         </section>
         
-        <!-- Quit Box Footer -->
+        <!-- Quiz Box Footer -->
         <footer>
             <div class="total_que">
                 <span> <p>2</p> of <p>5</p>  Questions </span>
             </div>
-            <button onclick="hello()" class="next_btn">Next Que</button>
+            <button class="next_btn">Next Que</button>
         </footer>
         
     </div>
 
+<!-- result box -->
+<div class="result_box">
+    <div class="icon">
+        <i class="fas fa-crown"></i>
+    </div>
+
+    <div class="complete_text">You have completed the Quiz!</div>
+    <div class="score_text">
+    <span>and sorry, you got only <p> 2 </p> out of <p> 5 </p> </span>
+    </div>
+    <div class="buttons">
+    <button class="restart">Replay Quiz</button>
+    <button class="quit"> Quit Quiz</button>
+    </div>
+
+</div>
 
 
 
@@ -91,8 +102,12 @@
 
 
 
-
-
+<script src="script.js"></script>
+<script src="questions.js"></script>
 
 </body>
 </html>
+
+
+
+
